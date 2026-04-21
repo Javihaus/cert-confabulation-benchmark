@@ -1,10 +1,8 @@
 # Human-Confabulated Hallucination Benchmark
 
-**When Embedding-Based Methods Cannot Distinguish Hallucinations from Truth**
+**A Methodology for Building a Human-Confabulated Hallucination Benchmarks**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Dataset: 212 pairs](https://img.shields.io/badge/pairs-212-blue.svg)]()
-[![Domains: 9](https://img.shields.io/badge/domains-9-green.svg)]()
 [![Paper](https://img.shields.io/badge/paper-PDF-red.svg)](paper/paper.pdf)
 
 ---
@@ -127,7 +125,7 @@ See [`scripts/`](scripts/) for the full experiment code.
     └── basic_usage.py        # Minimal working example
 ```
 
-## Key finding
+## Experimental Results
 
 Detection accuracy drops when benchmarks are built from human confabulations instead of LLM-generated content:
 
@@ -148,8 +146,7 @@ If you use this dataset or methodology in your research, please cite:
 ```bibtex
 @misc{marin2026confabulation,
   author       = {Mar{\'\i}n, Javier},
-  title        = {When Embedding-Based Methods Cannot Distinguish
-                  Hallucinations from Truth: A Human-Confabulated Benchmark},
+  title        = {A Methodology for Building Human-Confabulated Hallucination Benchmarks},
   year         = {2026},
   url          = {https://github.com/Javihaus/cert-confabulation-benchmark}
 }
