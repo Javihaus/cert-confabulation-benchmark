@@ -24,6 +24,7 @@ There is not any specific methodology existed for generated human-confabulated b
 ## Dataset
 
 `data/human_confabulations.csv` --- 212 question--response pairs across nine domains.
+
 787| Domain | Pairs | Knowledge type |
 |---|--:|---|
 | Python coding | 47 | Technical specification |
