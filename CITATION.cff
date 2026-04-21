@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Human-Confabulated Hallucination Benchmark"
+message: "If you use this dataset, please cite it using the metadata from this file."
+type: dataset
+authors:
+  - family-names: "Marín"
+    given-names: "Javier"
+    email: "javier@jmarin.info"
+url: "https://github.com/Javihaus/cert-confabulation-benchmark"
+repository-code: "https://github.com/Javihaus/cert-confabulation-benchmark"
+license: CC-BY-4.0
+date-released: "2026-04-21"
+keywords:
+  - hallucination detection
+  - confabulation
+  - benchmark
+  - LLM evaluation
+  - sentence embeddings
+  - EU AI Act
